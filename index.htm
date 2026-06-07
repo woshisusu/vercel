@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>软件下载</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#f5f7fa;padding:40px 15px;text-align:center}
+.wrap{max-width:600px;margin:0 auto;background:#fff;padding:35px 25px;border-radius:12px}
+h1{margin-bottom:20px}
+.down{display:block;text-decoration:none;background:#007bff;color:#fff;padding:13px;border-radius:8px;margin:12px 0;font-size:17px}
+.down:hover{background:#005fc2}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>软件下载中心</h1>
+<div id="list"></div>
+</div>
+<script>
+fetch("soft.json")
+.then(res=>res.json())
+.then(arr=>{
+  let html=""
+  arr.forEach(item=>{
+    html+=`<a class="down" href="${item.url}" target="_blank">${item.name}</a>`
+  })
+  document.getElementById("list").innerHTML=html
+})
+</script>
+</body>
+</html>
