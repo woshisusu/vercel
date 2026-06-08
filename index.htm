@@ -9,8 +9,11 @@
 body{background:#f5f7fa;padding:40px 15px;text-align:center}
 .wrap{max-width:600px;margin:0 auto;background:#fff;padding:35px 25px;border-radius:12px}
 h1{margin-bottom:20px}
-.down{display:block;text-decoration:none;background:#007bff;color:#fff;padding:13px;border-radius:8px;margin:12px 0;font-size:17px}
-.down:hover{background:#005fc2}
+.down-card{border:1px solid #e5e7eb;border-radius:8px;padding:18px;margin:14px 0;text-align:left}
+.down-name{font-size:18px;font-weight:bold;margin-bottom:6px;color:#111}
+.down-desc{font-size:14px;color:#666;line-height:1.6;margin:8px 0}
+.down-btn{display:block;text-decoration:none;background:#007bff;color:#fff;padding:11px;border-radius:6px;margin-top:10px;font-size:16px;text-align:center}
+.down-btn:hover{background:#005fc2}
 </style>
 </head>
 <body>
@@ -24,9 +27,22 @@ fetch("soft.json")
 .then(arr=>{
   let html=""
   arr.forEach(item=>{
-    html+=`<a class="down" href="${item.url}" target="_blank">${item.name}</a>`
+    html += `
+    <div class="down-card">
+      <div class="down-name">${item.name} ${item.version}</div>
+      <div class="down-desc">
+        安装包：${item.filename}<br>
+        ${item.fileSize ? "文件大小："+item.fileSize+"<br>" : ""}
+        更新日志：${item.updateLog}
+      </div>
+      <a class="down-btn" href="${item.downloadUrl}" target="_blank">立即下载</a>
+    </div>
+    `
   })
   document.getElementById("list").innerHTML=html
+})
+.catch(err=>{
+  document.getElementById("list").innerHTML = "<p style='color:red;'>读取下载配置失败</p>"
 })
 </script>
 </body>
