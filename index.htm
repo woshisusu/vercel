@@ -216,12 +216,14 @@ fetch("soft.json")
 .then(arr=>{
   let html=""
   arr.forEach((item,index)=>{
-    const icons = ['🎬','✂️','🎨','🎵','📹','🖼️']
-    const icon = icons[index % icons.length]
+    const icons = ['🎬','✂️']
+    const icon = icons[index] || '📦'
     html += `
     <div class="down-card" style="animation-delay:${index*0.15}s">
       <div class="card-header">
-        <div class="software-icon">${icon}</div>
+        <div class="software-icon">
+          ${item.logo ? `<img src="${item.logo}" alt="${item.name}" style="width:100%;height:100%;object-fit:cover;border-radius:14px;">` : `<span style="font-size:28px;">${icon}</span>`}
+        </div>
         <div class="software-info">
           <h2>${item.name}</h2>
           <span class="version-tag">${item.version}</span>

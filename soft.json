@@ -5,7 +5,8 @@
         "filename": "睿帧工坊 Pro v3.0.exe",
         "fileSize": "",
         "md5": "",
-        "updateLog": "本地批量处理视频工具，音频、画质全面提升，支持批量按比例裁切、加水印，标题，自动识别字幕，背景音，变速等",
+        "logo": "https://slban-downloads-1441072440.cos.ap-guangzhou.myqcloud.com/%E7%9D%BF%E5%B8%A7%E5%B7%A5%E5%9D%8Apro.png",
+        "updateLog": "本地批量处理视频工具，音频、画质全面提升，支持批量按比例裁切、加水印，标题，自动识别字幕，背景音，视频变速等，一键批量执行",
         "downloadUrl": "https://slban-downloads-1441072440.cos.ap-guangzhou.myqcloud.com/%E7%9D%BF%E5%B8%A7%E5%B7%A5%E5%9D%8A%20Pro%20v3.0.exe"
     },
     {
@@ -14,6 +15,7 @@
         "filename": "Videpro-视频解说剪辑自动化兼容WIN7.exe",
         "fileSize": "",
         "md5": "",
+        "logo": "https://slban-downloads-1441072440.cos.ap-guangzhou.myqcloud.com/videpro.png",
         "updateLog": "Videpro是一款全自动化视频解说工具，完全按用户核心主旨结合视频内容实现自动化解说裁切合并，让创作更有趣，内容时长/节奏/风格全可控，内置依赖件，配置api即可用，兼容win7",
         "downloadUrl": "https://slban-downloads-1441072440.cos.ap-guangzhou.myqcloud.com/Videpro-%E8%A7%86%E9%A2%91%E8%A7%A3%E8%AF%B4%E5%89%AA%E8%BE%91%E8%87%AA%E5%8A%A8%E5%8C%96%E5%85%BC%E5%AE%B9WIN7.exe"
     }
