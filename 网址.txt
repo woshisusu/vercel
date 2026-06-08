@@ -1,7 +1,0 @@
-生产地址：https://com-bwk31bugz-woshisusu1.vercel.app
-别名地址：https://com-three-rho.vercel.app
-
-
-登录你的 Vercel 项目后台 → 进入「Settings」→「Domains」
-添加你的域名：slban.com 和 www.slban.com
-状态会先显示「Pending」，等 Cloudflare 验证通过后，会自动变成「Valid」
