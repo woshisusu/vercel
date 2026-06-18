@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.slban.com/sitemap.xml
+
+# 禁止抓取 CDN 直链（减少无效抓取）
+Disallow: /cdn/
+
+# Crawl-delay for polite crawling
+Crawl-delay: 10

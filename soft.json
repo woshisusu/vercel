@@ -5,13 +5,13 @@
         "filename": "睿帧工坊 Pro v3.0.exe",
         "fileSize": "",
         "md5": "",
-        "logo": "https://slban-download-1441072440.cos.ap-guangzhou.myqcloud.com/%E7%9D%BF%E5%B8%A7%E5%B7%A5%E5%9D%8Apro.png",
+        "logo": "",
         "updateLog": "本地批量处理视频工具，音频、画质全面提升，支持批量按比例裁切、加水印，标题，自动识别字幕，背景音，视频变速等，一键批量执行",
         "downloadUrl": "https://slban-download-1441072440.cos.ap-guangzhou.myqcloud.com/%E7%9D%BF%E5%B8%A7%E5%B7%A5%E5%9D%8A%20Pro%20v3.0.exe",
         "screenshots": [
-            "https://slban-download-1441072440.cos.ap-guangzhou.myqcloud.com/screenshots/ruizhen-pro-1.png",
-            "https://slban-download-1441072440.cos.ap-guangzhou.myqcloud.com/screenshots/ruizhen-pro-2.png",
-            "https://slban-download-1441072440.cos.ap-guangzhou.myqcloud.com/screenshots/ruizhen-pro-3.png"
+            "screenshots/ruizhen-pro-1.png",
+            "screenshots/ruizhen-pro-2.png",
+            "screenshots/ruizhen-pro-3.png"
         ],
         "features": ["批量按比例裁切", "自动字幕识别", "AI画质增强", "水印/标题叠加", "背景音/变速调节", "多格式批量导出"],
         "tags": ["推荐", "热门"],
@@ -23,13 +23,13 @@
         "filename": "Videpro-视频解说剪辑自动化.exe",
         "fileSize": "",
         "md5": "",
-        "logo": "https://slban-download-1441072440.cos.ap-guangzhou.myqcloud.com/videpro.png",
+        "logo": "",
         "updateLog": "全自动化视频解说工具，按用户核心主旨结合视频内容实现自动化解说裁切合并，让创作更有趣，内容时长/节奏/风格全可控",
         "downloadUrl": "https://slban-download-1441072440.cos.ap-guangzhou.myqcloud.com/Videpro-%E8%A7%86%E9%A2%91%E8%A7%A3%E8%AF%B4%E5%89%AA%E8%BE%91%E8%87%AA%E5%8A%A8%E5%8C%96.exe",
         "screenshots": [
-            "https://slban-download-1441072440.cos.ap-guangzhou.myqcloud.com/screenshots/videpro-v3-1.png",
-            "https://slban-download-1441072440.cos.ap-guangzhou.myqcloud.com/screenshots/videpro-v3-2.png",
-            "https://slban-download-1441072440.cos.ap-guangzhou.myqcloud.com/screenshots/videpro-v3-3.png"
+            "screenshots/videpro-v3-1.png",
+            "screenshots/videpro-v3-2.png",
+            "screenshots/videpro-v3-3.png"
         ],
         "features": ["AI智能解说剪辑", "内容节奏可控", "风格自由定制", "内置依赖件", "配置 API 即用", "在线自动更新"],
         "tags": ["推荐"],
@@ -41,13 +41,13 @@
         "filename": "Videpro-视频解说剪辑自动化兼容WIN7.exe",
         "fileSize": "",
         "md5": "",
-        "logo": "https://slban-download-1441072440.cos.ap-guangzhou.myqcloud.com/videpro.png",
+        "logo": "",
         "updateLog": "Videpro Win7 兼容版，全自动化视频解说工具，内置依赖件，配置 API 即可开工，兼容 Windows 7",
         "downloadUrl": "https://slban-download-1441072440.cos.ap-guangzhou.myqcloud.com/Videpro-%E8%A7%86%E9%A2%91%E8%A7%A3%E8%AF%B4%E5%89%AA%E8%BE%91%E8%87%AA%E5%8A%A8%E5%8C%96%E5%85%BC%E5%AE%B9WIN7.exe",
         "screenshots": [
-            "https://slban-download-1441072440.cos.ap-guangzhou.myqcloud.com/screenshots/videpro-win7-1.png",
-            "https://slban-download-1441072440.cos.ap-guangzhou.myqcloud.com/screenshots/videpro-win7-2.png",
-            "https://slban-download-1441072440.cos.ap-guangzhou.myqcloud.com/screenshots/videpro-win7-3.png"
+            "screenshots/videpro-win7-1.png",
+            "screenshots/videpro-win7-2.png",
+            "screenshots/videpro-win7-3.png"
         ],
         "features": ["AI智能解说剪辑", "内容节奏可控", "风格自由定制", "内置依赖件", "配置 API 即用", "兼容 Windows 7"],
         "tags": ["Win7兼容"],

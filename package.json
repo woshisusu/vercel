@@ -1,0 +1,7 @@
+{
+  "name": "slban-download",
+  "private": true,
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.14.7"
+  }
+}
